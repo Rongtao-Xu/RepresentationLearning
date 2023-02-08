@@ -1,9 +1,8 @@
-# End-to-End Weakly-Supervised Semantic Segmentation with Multi-Level Representation Mutual Learning
-Pytorch implementation of "End-to-End Weakly-Supervised Semantic Segmentation with Multi-Level Representation Mutual Learning".
+# Pytorch implementation of "An Efficient End-to-End Weakly-Supervised Semantic Segmentation Framework with Representation Mutual Learning for Robotic Applications" (Under Review).
 
-Author information does not appear in the code.
 
-![NET](\picture\method.png)
+
+![NET](picture\method.png)
 
 ### License me ###
 **This code is only for reviewers to understand implementation details.**
