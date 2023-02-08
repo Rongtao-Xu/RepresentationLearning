@@ -1,8 +1,7 @@
 # Pytorch implementation of "An Efficient End-to-End Weakly-Supervised Semantic Segmentation Framework with Representation Mutual Learning for Robotic Applications" (Under Review).
 
 
-
-![NET](picture\method.png)
+![NET](https://github.com/Rongtao-Xu/RepresentationLearning/tree/main/RML/picture/method.png)
 
 ### License me ###
 **This code is only for reviewers to understand implementation details.**
