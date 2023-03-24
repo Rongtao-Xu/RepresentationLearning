@@ -20,6 +20,14 @@ Install dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+Before Running, build python extension module:
+```
+cd wrapper/bilateralfilter
+swig -python -c++ bilateralfilter.i
+python setup.py install
+```
+
 ### Data Preparation  ###
 
 Download VOC dataset:
