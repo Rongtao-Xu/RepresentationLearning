@@ -34,6 +34,9 @@ You can use test_select.py to choose the best threshold:
 python test_select.py -config config.yml -name model_name -gpu_ids gpu_id
 ```
 
+## Citation
+If you find the paper or code useful, please consider citing:
+```
 
 
-
+```
