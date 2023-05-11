@@ -100,11 +100,12 @@ bash train/run_wavecam_coco.sh
 
 ## Citation
 If you find the paper or code useful, please consider citing:
-```@article{xu2023self,
-  title={Self Correspondence Distillation for End-to-End Weakly-Supervised Semantic Segmentation},
-  author={Xu, Rongtao and Wang, Changwei and Sun, Jiaxi and Xu, Shibiao and Meng, Weiliang and Zhang, Xiaopeng},
-  journal={arXiv preprint arXiv:2302.13765},
-  year={2023}
+```@article{xu2023wave,
+  title={Wave-Like Class Activation Map With Representation Fusion for Weakly-Supervised Semantic Segmentation},
+  author={Xu, Rongtao and Wang, Changwei and Xu, Shibiao and Meng, Weiliang and Zhang, Xiaopeng},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
