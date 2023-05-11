@@ -1,0 +1,51 @@
+#TRAIN:
+data_path: #your data path
+input_nc: 3
+output_nc: 1 # of output image channels: 3 for RGB and 1 for grayscale
+input: 'images'
+groundtruth: 'masks'
+proir: 'sr'
+lambda_L1: 100 #weight for L1 loss
+lambda_Dice: 40
+maintain_epoch: 30 #of iter at starting learning rate
+decay_epoch: 30 #of iter to linearly decay learning rate to zero
+save_epoch_freq: 100 #frequency of saving checkpoints at the end of epochs
+gpu_ids: 1 #gpu id
+output: './checkpoints' #model path
+isTrain: True #the flag of train
+continue_train: False #continue training: load the latest model
+beta1: 0.5 # momentum term of adam
+lr: 0.0002 #initial learning rate for adam
+lr_decay_iters: 50 #multiply by a gamma every lr_decay_iters iterations
+# dataset parameters
+serial_batches: False #if true, takes images in order to make batches, otherwise takes them randomly
+num_threads: 4 #threads for loading data
+batch_size: 1 #input batch size
+load_size: 256
+crop_size: 256 #scale images to this size
+gan_mode: 'lsgan' #[vanilla/ lsgan / wgangp 1/2 /]
+#TEST:
+results_dir: './test/'
+epoch: 'best' #which epoch to load: set to latest to use latest cached model
+aspect_ratio: 1
+phase: test
+eval: False
+# model parameters
+netG: 'softnet' #[resnet_9blocks | resnet_6blocks | unet_256 | unet_128]
+netD: 'pixel' #[basic |pixel]
+ngf: 64 # of gen filters in the last conv layer
+ndf: 64 # of discrim filters in the first conv layer
+no_dropout: False #no dropout for the generator
+max_dataset_size: 1000000 #Maximum number of samples allowed per dataset. If the dataset directory contains more than max_dataset_size, only a subset is loaded.
+no_flip: True #if specified, do not flip the images for data augmentation
+display_winsize: 512 #display window size for both visdom and HTML
+# display parameters
+load_iter: 0 # which iteration to load: if load_iter > 0, the code will load models by iter_[load_iter]; otherwise, the code will load models by [epoch]
+verbose: False #if specified, print more debugging information
+suffix: "" #customized suffix: opt.name = opt.name + suffix: e.g., {model}_{netG}_size{load_size}
+save_latest_freq: 5000 #frequency of saving the latest results
+save_by_iter: False #whether saves model by iteration
+epoch_count: 1 #the starting epoch count, we save the model by <epoch_count>, <epoch_count>+<save_latest_freq>, ...
+
+
+
