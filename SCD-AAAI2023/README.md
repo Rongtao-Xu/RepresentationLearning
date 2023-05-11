@@ -69,6 +69,15 @@ Training on VOC:
 bash train/run_sbatch_attn_reg.sh
 ```
 
+## Citation
+If you find the paper or code useful, please consider citing:
+```@article{xu2023self,
+  title={Self Correspondence Distillation for End-to-End Weakly-Supervised Semantic Segmentation},
+  author={Xu, Rongtao and Wang, Changwei and Sun, Jiaxi and Xu, Shibiao and Meng, Weiliang and Zhang, Xiaopeng},
+  journal={arXiv preprint arXiv:2302.13765},
+  year={2023}
+}
+```
 
 ### Thanks ###
 
