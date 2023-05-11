@@ -14,7 +14,7 @@ This code is available only for non-commercial use.
 | **Variation-aware Refine Module** | networks/VARM.py |
 | **TSCD framework** | scripts/dist_train_voc.py, networks/TSCD_model.py |
 
-### Installation  ###
+## Installation 
 
 Install dependencies:
 ```
@@ -28,7 +28,7 @@ swig -python -c++ bilateralfilter.i
 python setup.py install
 ```
 
-### Data Preparation  ###
+## Data Preparation 
 
 Download VOC dataset:
 
@@ -44,7 +44,7 @@ wget http://images.cocodataset.org/zips/train2014.zip
 wget http://images.cocodataset.org/zips/val2014.zip 
 ```
 
-### Evaluation
+## Evaluation
 
 Evaluation on VOC:
 
@@ -56,7 +56,7 @@ python scripts/dist_train_voc.py
 
 
 
-### Training ###
+## Training 
 
 Download  Pre-trained weights:
 
@@ -79,7 +79,7 @@ If you find the paper or code useful, please consider citing:
 }
 ```
 
-### Thanks ###
+## Thanks
 
 Some implementation code comes from：
 
