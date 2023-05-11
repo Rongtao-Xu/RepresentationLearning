@@ -26,6 +26,18 @@ Evaluate on eval set
 bash ./scripts/eval.sh
 ```
 
+## Citation
+If you find the paper or code useful, please consider citing:
+```@article{xu2023rssformer,
+  title={Rssformer: Foreground saliency enhancement for remote sensing land-cover segmentation},
+  author={Xu, Rongtao and Wang, Changwei and Zhang, Jiguang and Xu, Shibiao and Meng, Weiliang and Zhang, Xiaopeng},
+  journal={IEEE Transactions on Image Processing},
+  volume={32},
+  pages={1052--1064},
+  year={2023},
+  publisher={IEEE}
+}
+```
 
 
 
