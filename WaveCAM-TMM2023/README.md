@@ -1,5 +1,5 @@
 # Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation
-Pytorch implementation of "Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation" (Under Review). 
+Pytorch implementation of "Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation". 
 
 ## Installation
 
@@ -98,13 +98,24 @@ Training on COCO:
 bash train/run_wavecam_coco.sh
 ```
 
-### License me ###
+## Citation
+If you find the paper or code useful, please consider citing:
+```@article{xu2023self,
+  title={Self Correspondence Distillation for End-to-End Weakly-Supervised Semantic Segmentation},
+  author={Xu, Rongtao and Wang, Changwei and Sun, Jiaxi and Xu, Shibiao and Meng, Weiliang and Zhang, Xiaopeng},
+  journal={arXiv preprint arXiv:2302.13765},
+  year={2023}
+}
+```
+
+## License me 
 
 **This code is only for reviewers to understand implementation details.**
 
 This code is available only for non-commercial use.
 
-### Thanks ###
+
+## Thanks 
 
 Some implementation code comes from：
 
