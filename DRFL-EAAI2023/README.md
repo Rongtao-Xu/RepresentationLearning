@@ -37,6 +37,16 @@ python test_select.py -config config.yml -name model_name -gpu_ids gpu_id
 ## Citation
 If you find the paper or code useful, please consider citing:
 ```
-
+@article{XU2023106402,
+title = {Dual-stream Representation Fusion Learning for accurate medical image segmentation},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {123},
+pages = {106402},
+year = {2023},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2023.106402},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197623005869},
+author = {Rongtao Xu and Changwei Wang and Shibiao Xu and Weiliang Meng and Xiaopeng Zhang},
+}
 
 ```
