@@ -13,7 +13,6 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from model.DCL import *
 from Models.networks.network import Comprehensive_Atten_Unet
-from modeling.tunet import tunet
 import numpy as np
 #Interface
 def modelcreater(a,isTrain):
@@ -355,8 +354,7 @@ def define_G(input_nc, output_nc, netG,ngf,use_dropout=False, gpu_ids=[]):
 
     elif netG == 'canet':
         net = Comprehensive_Atten_Unet(input_nc)
-    elif netG == 'tunet':
-        net = tunet(input_nc)
+
     else:
         raise NotImplementedError('Generator model name [%s] is not recognized' % netG)
     return init_net(net,gpu_ids)
